@@ -1,0 +1,15 @@
+---
+- version: v1alpha1
+  group: cache.example.com
+  kind: Memcached
+  role: /opt/ansible/roles/memcached
+
+- version: v1alpha1
+  group: cache.example.com
+  kind: Mykind
+  role: /opt/ansible/roles/mykind
+
+- version: v1alpha1
+  group: app.example.com
+  kind: Myapp
+  role: /opt/ansible/roles/myapp    

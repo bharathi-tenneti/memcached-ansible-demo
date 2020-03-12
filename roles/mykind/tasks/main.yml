@@ -1,0 +1,11 @@
+- name: Create ConfigMap to test ansible api
+  k8s:
+    definition:
+      kind: ConfigMap
+      apiVersion: v1
+      metadata:
+        name: example-mykind
+        namespace: "default"
+      data:
+        name: bharathi
+    state: present
