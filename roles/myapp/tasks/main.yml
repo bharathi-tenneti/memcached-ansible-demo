@@ -5,7 +5,7 @@
       apiVersion: v1
       metadata:
         name: example-myapp
-        namespace: "default"
+        namespace: "ansible-demo"
       data:
         name: bharathi
     state: present
